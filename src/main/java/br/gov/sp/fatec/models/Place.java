@@ -27,7 +27,7 @@ public class Place {
     @Column(name = "location", nullable = false)
     private String location;
 
-    @OneToMany
+    @OneToMany(mappedBy = "place")
     private Set<Review> reviews;
 
     /* Getters and Setters */

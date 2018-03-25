@@ -30,7 +30,7 @@ public class Person {
     @Column(name = "full_name", length = 100, nullable = false)
     private String fullName;
 
-    @OneToMany
+    @OneToMany(mappedBy = "person")
     private Set<Review> reviews;
 
     /* Getters and Setters */

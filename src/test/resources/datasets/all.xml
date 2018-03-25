@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <people id="1" username="marionakani" full_name="Mario Nakani" password="ma12345" />
+    <people id="2" username="rodrikflint" full_name="Rodrik Flint" password="rofli30404" />
+    <people id="3" username="jeynewaters" full_name="Jeyne Waters" password="jekmxi1" />
+
+    <places id="1" location="Azkaban" name="Myr of Norbert Hephaestus Aion" />
+    <places id="2" location="Quality Quidditch Shop" name="White Harbor of Walden Macnair Apollo Chaos" />
+    <places id="3" location="Ilvermorny" name="Bhorash of Enid Zeus Phanes" />
+    <places id="4" location="Post Office" name="Volantis of Grawp Hermes Eros" />
+
+    <reviews id="1"
+             message="Happiness can be found even in the darkest of times if only one remembers to turn on the light."
+             score="9"
+             person_id="1"
+             place_id="1"
+    />
+    <reviews id="2"
+             message="No story lives unless someone wants to listen. The stories we love best do live in us forever.
+             So whether you come back by page or by the big screen, Hogwarts will always be there to welcome you home."
+             score="10"
+             person_id="2"
+             place_id="1"
+    />
+    <reviews id="3"
+             message="I solemnly swear I am up to no good."
+             score="3"
+             person_id="3"
+             place_id="2"
+    />
+
+
+</dataset>

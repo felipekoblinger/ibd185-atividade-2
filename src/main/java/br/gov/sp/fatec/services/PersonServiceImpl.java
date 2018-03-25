@@ -19,7 +19,7 @@ public class PersonServiceImpl implements PersonService {
     @Transactional
     public void save(Person person) {
         /* Trim to avoid leading and trailing spaces */
-        person.setFullName(person.getUsername().trim());
+        person.setFullName(person.getFullName().trim());
         person.setUsername(person.getUsername().trim().toLowerCase());
         personRepository.save(person);
     }

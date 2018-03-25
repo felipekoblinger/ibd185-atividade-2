@@ -1,7 +1,5 @@
 package br.gov.sp.fatec.models;
 
-import com.sun.istack.internal.NotNull;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -34,12 +32,10 @@ public class Review {
     private int score;
 
     @ManyToOne
-    @NotNull
     @JoinColumn(name = "person_id")
     private Person person;
 
     @ManyToOne
-    @NotNull
     @JoinColumn(name = "place_id")
     private Place place;
 
@@ -82,5 +78,21 @@ public class Review {
 
     public void setPlace(Place place) {
         this.place = place;
+    }
+
+    public Long getPersonId() {
+        return personId;
+    }
+
+    public void setPersonId(Long personId) {
+        this.personId = personId;
+    }
+
+    public Long getPlaceId() {
+        return placeId;
+    }
+
+    public void setPlaceId(Long placeId) {
+        this.placeId = placeId;
     }
 }
