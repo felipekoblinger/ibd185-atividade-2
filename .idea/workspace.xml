@@ -10,48 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dbad0b2-aea5-4aae-8191-d4b4549b8906" name="Default" comment="Update Spring from 5.0.4 to 5.0.5">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/travelling_reviews_spring_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/travelling_reviews_spring_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/controllers/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/controllers/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/exceptions/ApiError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/exceptions/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/models/specifications/PersonSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/views/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/integration/controllers/PersonControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/repositories/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/repositories/PersonRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/services/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/services/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/services/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/services/PersonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContextTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContextTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/integration/repositories/PersonRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/repositories/PersonRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/integration/services/PersonServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/services/PersonServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/gov/sp/fatec/models/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/gov/sp/fatec/models/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/gov/sp/fatec/repositories/PersonRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/gov/sp/fatec/repositories/PersonRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/gov/sp/fatec/services/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/gov/sp/fatec/services/PersonService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/gov/sp/fatec/services/PersonServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/gov/sp/fatec/services/PersonServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelling-reviews-spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/travelling-reviews-spring.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,101 +33,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/views/View.java">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+            <state relative-caret-position="-87">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/integration/services/PersonServiceTest.java">
+      <file leaf-file-name="applicationContextTest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContextTest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-303">
-              <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="55" />
+            <state relative-caret-position="211">
+              <caret line="25" column="75" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonControllerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/integration/controllers/PersonControllerTest.java">
+      <file leaf-file-name="PersonRepositoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/integration/repositories/PersonRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2070">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1980#1981#0" expanded="true" />
-                <element signature="e#2081#2082#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="183">
+              <caret line="73" column="72" selection-start-line="73" selection-start-column="72" selection-end-line="73" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransactionDbUnitTestExecutionListener.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/github/springtestdbunit/spring-test-dbunit/1.3.0/spring-test-dbunit-1.3.0.jar!/com/github/springtestdbunit/TransactionDbUnitTestExecutionListener.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiError.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/exceptions/ApiError.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GlobalExceptionHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/exceptions/GlobalExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="34" column="53" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4209">
-              <caret line="183" column="21" lean-forward="true" selection-start-line="183" selection-start-column="21" selection-end-line="183" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/controllers/PersonController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/datasets/all.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="84" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="84" />
-            </state>
-          </provider>
+      <file leaf-file-name=".travis-ci.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis-ci.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -241,7 +136,6 @@
         <option value="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/models/specifications/PersonSpecification.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/services/PersonServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/repositories/PersonRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/integration/repositories/PersonRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/integration/services/PersonServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContextTest.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContextTest.xml" />
@@ -249,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/main/java/br/gov/sp/fatec/controllers/PersonController.java" />
         <option value="$PROJECT_DIR$/src/test/java/integration/controllers/PersonControllerTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/integration/repositories/PersonRepositoryTest.java" />
       </list>
     </option>
   </component>
@@ -307,50 +202,6 @@
             <path>
               <item name="travelling-reviews-spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="travelling-reviews-spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travelling-reviews-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travelling-reviews-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travelling-reviews-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travelling-reviews-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travelling-reviews-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travelling-reviews-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travelling-reviews-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travelling-reviews-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fatec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travelling-reviews-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travelling-reviews-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fatec" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travelling-reviews-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travelling-reviews-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fatec" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -748,9 +599,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonControllerTest - 2018.04.14 at 03h 36m 48s.xml">
-      <configuration name="PersonControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PersonControllerTest - 2018.04.14 at 03h 41m 44s.xml">
       <configuration name="PersonControllerTest" configurationId="JUnit" />
     </history-entry>
@@ -778,23 +626,26 @@
     <history-entry file="PersonControllerTest - 2018.04.14 at 03h 51m 56s.xml">
       <configuration name="PersonControllerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PersonRepositoryTest - 2018.04.14 at 04h 38m 36s.xml">
+      <configuration name="PersonRepositoryTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77211000" />
+    <option name="totallyTimeSpent" value="77255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="824" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.53576535" side_tool="true" visible="true" weight="0.32348806" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.19742489" side_tool="true" visible="true" weight="0.3727145" />
       <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.4985694" weight="0.32911393" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.5010395" side_tool="true" visible="true" weight="0.3018598" />
+      <window_info id="Structure" order="1" sideWeight="0.50224215" side_tool="true" visible="true" weight="0.3018598" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -805,23 +656,51 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8032904" weight="0.3727145" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8025751" visible="true" weight="0.3727145" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32911393" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.46423462" visible="true" weight="0.32348806" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.46423462" weight="0.32348806" />
       <window_info anchor="bottom" id="Problems" order="7" weight="0.32911393" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989605" visible="true" weight="0.3018598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.3018598" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49928468" weight="0.32911393" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="JRebel Executor" order="7" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="JRebel Console" order="7" sideWeight="0.5028612" side_tool="true" weight="0.3287858" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8032904" weight="0.3727145" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.53576535" side_tool="true" visible="true" weight="0.32348806" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989605" visible="true" weight="0.3018598" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Problems" order="7" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.46423462" visible="true" weight="0.32348806" />
+      <window_info id="Structure" order="1" sideWeight="0.5010395" side_tool="true" visible="true" weight="0.3018598" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="JRebel Executor" order="7" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32911393" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="JRebel Console" order="7" sideWeight="0.5028612" side_tool="true" weight="0.3287858" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49928468" weight="0.32911393" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.4985694" weight="0.32911393" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49499285" weight="0.32630098" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Designer" order="2" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -841,13 +720,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/TestCase.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -1043,9 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1066,15 +935,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContextTest.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContextTest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="211">
+          <caret line="25" column="75" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="-87">
           <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
@@ -1100,24 +969,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integration/repositories/PersonRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.5.RELEASE/spring-test-5.0.5.RELEASE.jar!/org/springframework/test/web/servlet/result/MockMvcResultMatchers.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/datasets/all.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="84" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="84" />
         </state>
       </provider>
     </entry>
@@ -1146,9 +1001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,6 +1044,23 @@
           <caret line="183" column="21" lean-forward="true" selection-start-line="183" selection-start-column="21" selection-end-line="183" selection-end-column="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/datasets/all.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/integration/repositories/PersonRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="73" column="72" selection-start-line="73" selection-start-column="72" selection-end-line="73" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis-ci.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

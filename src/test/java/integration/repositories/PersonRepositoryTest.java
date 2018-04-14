@@ -71,13 +71,7 @@ public class PersonRepositoryTest {
     /* Query Methods Tests */
     @Test
     public void testFindByUsername() {
-        Person person = new Person();
-        person.setUsername("joaodasneves");
-        person.setFullName("João das Neves");
-        person.setPassword("youknownothing");
-        personRepository.save(person);
-
-        Person personFind = personRepository.findByUsername(person.getUsername());
+        Person personFind = personRepository.findByUsername("marionakani");
         assertNotNull("Person not found.", personFind);
     }
 
