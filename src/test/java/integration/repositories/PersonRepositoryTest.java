@@ -80,9 +80,16 @@ public class PersonRepositoryTest {
         Person personFind = personRepository.findByUsername(person.getUsername());
         assertNotNull("Person not found.", personFind);
     }
+
     @Test
     public void testFindAllByReviewsScoreIsGreaterThanEqual() {
         List<Person> people = personRepository.findAllByReviewsScoreIsGreaterThanEqual(4);
+        assertTrue("People not found.", people.size() > 0);
+    }
+
+    @Test
+    public void testFindAllBy() {
+        List<Person> people = personRepository.findAll();
         assertTrue("People not found.", people.size() > 0);
     }
 

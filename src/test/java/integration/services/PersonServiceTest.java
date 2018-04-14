@@ -4,6 +4,7 @@ import br.gov.sp.fatec.models.Person;
 import br.gov.sp.fatec.services.PersonService;
 import com.github.springtestdbunit.TransactionDbUnitTestExecutionListener;
 import com.github.springtestdbunit.annotation.DatabaseSetup;
+import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,9 @@ import org.springframework.test.context.support.DependencyInjectionTestExecution
 import org.springframework.test.context.support.DirtiesContextTestExecutionListener;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
+import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
@@ -44,6 +48,18 @@ public class PersonServiceTest {
     public void testFindByUsername() {
         Person personFind = personService.findByUsername("marionakani");
         assertNotNull("Person not found.", personFind);
+    }
+
+    @Test
+    public void testFindAll() {
+        List<Person> people = personService.findAll();
+        assertTrue("People not found.", people.size() > 0);
+    }
+
+    @Test
+    public void testFindAllFilters() {
+        List<Person> people = personService.findAllFilters("marionakani", "Jeyne Waters");
+        assertEquals("Must return 2 people", 2, people.size());
     }
 }
 

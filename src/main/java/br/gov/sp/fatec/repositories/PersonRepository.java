@@ -1,6 +1,7 @@
 package br.gov.sp.fatec.repositories;
 
 import br.gov.sp.fatec.models.Person;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.NoRepositoryBean;
@@ -8,12 +9,15 @@ import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
-public interface PersonRepository extends CrudRepository<Person, Long> {
+public interface PersonRepository extends CrudRepository<Person, Long>, JpaSpecificationExecutor<Person> {
     /* Query Method: find by username exactly */
     Person findByUsername(String username);
 
     /* (*) Query Method: show all people with reviews */
     List<Person> findAllByReviewsScoreIsGreaterThanEqual(int score);
+
+    /* Query Method: find all people */
+    List<Person> findAll();
 
     /* @Query: search username with case-insensitive and ignoring leading/trailing spaces */
     @Query("SELECT p FROM Person p WHERE TRIM(LOWER(p.username)) = TRIM(LOWER(:username))")

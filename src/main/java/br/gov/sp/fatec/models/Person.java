@@ -1,5 +1,8 @@
 package br.gov.sp.fatec.models;
 
+import br.gov.sp.fatec.views.View;
+import com.fasterxml.jackson.annotation.JsonView;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -10,8 +13,11 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.*;
 import java.util.Set;
 
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
 @Entity
 @Table(name = "people")
 public class Person {
@@ -19,17 +25,21 @@ public class Person {
     @SequenceGenerator(name = "people_id_seq", sequenceName = "people_id_seq", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "people_id_seq")
     @Column(name = "id", nullable = false)
+    @JsonView(View.CommonWithId.class)
     private Long id;
 
     @Column(name = "username", unique = true, length = 50, nullable = false)
+    @JsonView(View.Common.class)
     private String username;
 
     @Column(name = "password", length = 50, nullable = false)
     private String password;
 
     @Column(name = "full_name", length = 100, nullable = false)
+    @JsonView(View.Common.class)
     private String fullName;
 
+    @XmlTransient
     @OneToMany(mappedBy = "person")
     private Set<Review> reviews;
 
